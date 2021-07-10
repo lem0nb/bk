@@ -176,7 +176,26 @@
       
     </form>
  
+ <br><br><h2>讨论区</h2><br>
 
+<link rel="stylesheet" href="https://unpkg.com/gitalk/dist/gitalk.css">
+<script src="https://unpkg.com/gitalk@latest/dist/gitalk.min.js"></script> 
+
+<div id="gitalk-container"></div>     
+<script type="text/javascript">
+    var gitalk = new Gitalk({
+      clientID: `c0c3ac30ddaefac26912`,   
+      clientSecret: `cd491ba218f459fec9063bf9f21b10b1a098be50`,
+      repo: `gitalk`,  
+      owner: 'lem0nb',   
+      admin: ['lem0nb'],  
+      id: 'indow.location.pathname', 
+        });
+      gitalk.render('gitalk-container');
+</script> 
+
+   
+   <br><br>
    
 
    
