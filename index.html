@@ -109,7 +109,7 @@
   <div class="mdui-toolbar mdui-color-theme">
     <span class="mdui-btn mdui-btn-icon mdui-ripple mdui-ripple-white" mdui-drawer="{target: '#main-drawer', swipe: true}"><i class="mdui-icon material-icons">menu</i></span>
     <a href="index.html" class="mdui-typo-headline mdui-hidden-xs">Burgerking</a>
-    <a href="index.html" class="mdui-typo-title">调查问卷</a>
+    <a href="index.html" class="mdui-typo-title">汉堡王调查问卷</a>
     <div class="mdui-toolbar-spacer"></div>
     <span class="mdui-btn mdui-btn-icon mdui-ripple mdui-ripple-white" mdui-dialog="{target: '#dialog-docs-theme'}" mdui-tooltip="{content: '设置主题'}"><i class="mdui-icon material-icons">color_lens</i></span>
     <a href="https://www.lirui.ml/" target="_blank" class="mdui-btn mdui-btn-icon mdui-ripple mdui-ripple-white" mdui-tooltip="{content: 'BurgerKing'}">
@@ -152,14 +152,7 @@
 
 <div class="mdui-container doc-container doc-no-cover">
   <h1 class="doc-title mdui-text-color-theme">Burgerking 汉堡王调查问卷</h1>
-		<div class="bdsharebuttonbox">
-<a href="#" class="bds_more" data-cmd="more"></a>
-<a href="#" class="bds_qzone" data-cmd="qzone" title="分享到QQ空间"></a>
-<a href="#" class="bds_tsina" data-cmd="tsina" title="分享到新浪微博"></a>
-<a href="#" class="bds_tqq" data-cmd="tqq" title="分享到腾讯微博"></a>
-<a href="#" class="bds_renren" data-cmd="renren" title="分享到人人网"></a>
-<a href="#" class="bds_weixin" data-cmd="weixin" title="分享到微信"></a>
-</div>
+
 <script>
 window._bd_share_config={
         "common":{
@@ -181,14 +174,9 @@ with(document)0[
 ];
         </script>
   <div class="doc-intro mdui-typo">
-    <p>请输入或拍照汉堡王小票下方的调查码，并点击获取</p>
+    <p>请输入汉堡王小票下方的调查码，并点击获取</p>
   </div>
-    <form id="bot-ocr" method="post" action="/bot/ocr" enctype="multipart/form-data">
-      <h2>图片上传</h2>
-      <input id="survey_code_img" type="file" name="survey_code_img" class="mdui-btn" required />
-	  <br><br>
-      <button class="submit mdui-btn mdui-btn-raised mdui-color-theme-accent mdui-ripple" type="submit">获取</button>
-    </form>
+    
     <br />
     <form id="bot-code" method="post" action="/bot/code">
       <h2>输入调查码</h2>
@@ -198,9 +186,8 @@ with(document)0[
   </div>
 	  <br><br>
       <button class="calculate mdui-btn mdui-btn-raised mdui-color-theme-accent mdui-ripple">获取</button>
-      <button class="submit mdui-btn mdui-btn-raised mdui-color-theme-accent mdui-ripple" type="submit">检验</button>
+   
       
-        <p>这可能会带去一些时间,请耐心等待...</p>
       
     </form>
  
