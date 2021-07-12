@@ -16,7 +16,7 @@ function bkCalculateVcode(scode) {
       s[i + 1] = parseInt(scode[i]);
     }
   } else {
-    return 'Error survey code';
+    return '错误的调查码';
   }
   v += ((s[4] == 0 ? 1 : s[4]) - s[9] + 9) % 10;
   v += (10 - s[4]) % 10;
